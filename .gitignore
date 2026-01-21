@@ -1,0 +1,12 @@
+# virtual environment
+VENV/
+ENV/
+.venv/
+venv/
+env/
+
+# environment variables
+.env*
+
+# jupyter notebooks
+.ipynb_checkpoints
