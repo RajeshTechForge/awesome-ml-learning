@@ -1,4 +1,4 @@
-# Chapter 3: Classification - Practical Notes
+# Chapter 3: Classification
 
 **Purpose**: Use these notes as a step-by-step guide when working on ANY classification problem. Don't just copy-paste blindly—understand the WHY behind each step.
 
@@ -19,12 +19,11 @@
 ## Quick Start Workflow
 
 ### Step 0: Before You Begin
-```
-✓ Understand the problem: Binary, Multiclass, Multilabel, or Multioutput?
-✓ Create test set and SET IT ASIDE (don't look at it until the end!)
-✓ Check if data is shuffled (most classifiers need this)
-✓ Identify if you have class imbalance (affects metric choice)
-```
+
+- [x] Understand the problem: Binary, Multiclass, Multilabel, or Multioutput?
+- [x] Create test set and SET IT ASIDE (don't look at it until the end!)
+- [x] Check if data is shuffled (most classifiers need this)
+- [x] Identify if you have class imbalance (affects metric choice)
 
 ### Step 1: Load and Explore Data
 ```python
